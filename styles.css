@@ -1,0 +1,55 @@
+body {
+    background-color: #FFA500;
+    color: #800080;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFA500;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.purple-button {
+    background-color: #800080;
+    color: #FFA500;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.purple-button:hover {
+    background-color: #9932CC;
+}
+
+.car {
+    margin: 20px 0;
+}
+
+.car h2 {
+    font-size: 24px;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #800080;
+}
